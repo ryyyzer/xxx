@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>跳转页面</title>
+    <title>VVV加速跳转页</title>
     <style>
         html, body {
             height: 100%;
@@ -26,15 +26,23 @@
     </style>
     <script>
         window.onload = function() {
-            setTimeout(function(){
-                window.location.href = 'https://www.vvvfast.fun';
-            }, 3000);
+            var count = 3;
+            var textElement = document.getElementById('countdown');
+            var countdown = setInterval(function() {
+                textElement.textContent = count;
+                count--;
+                if (count < 0) {
+                    clearInterval(countdown);
+                    window.location.href = 'https://www.vvvfast.fun';
+                }
+            }, 1000);
         };
     </script>
 </head>
 <body>
     <div class="container">
-        <p class="text">3秒后自动跳转</p>
+        <p class="text">正在为您挑选访问最快的官网地址……</p>
+        <p class="text">倒计时：<span id="countdown">3</span> 秒后自动跳转到官网</p>
     </div>
 </body>
 </html>
