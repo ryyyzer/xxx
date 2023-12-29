@@ -17,8 +17,6 @@
             align-items: center;
             justify-content: center;
             height: 100%;
-            cursor: pointer;
-            filter: blur(10px); /* 添加模糊效果 */
         }
         .text {
             color: #FFF;
@@ -28,16 +26,15 @@
     </style>
     <script>
         window.onload = function() {
-            document.querySelector('.container').addEventListener('click', function() {
+            setTimeout(function(){
                 window.location.href = 'https://www.vvvfast.fun';
-            });
+            }, 3000);
         };
     </script>
 </head>
 <body>
     <div class="container">
-        <p class="text">点击跳转</p>
+        <p class="text">3秒后自动跳转</p>
     </div>
 </body>
 </html>
-
