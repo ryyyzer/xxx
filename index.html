@@ -21,8 +21,6 @@
         .text {
             font-weight: bold;
             color: #FFF;
-            border: 2px solid #FFF;
-            padding: 10px;
             font-size: 24px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
@@ -36,7 +34,7 @@
                 count--;
                 if (count < 0) {
                     clearInterval(countdown);
-                    window.location.href = 'https://cdn.vvvfast.fun';
+                    window.location.replace('https://cdn.vvvfast.fun');
                 }
             }, 1000);
         };
