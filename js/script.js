@@ -1,3 +1,15 @@
+var domain = "cdn";
+var topLevelDomains = ["vvvfast.fun", "vvvfast.icu"];
+
+var randomIndex = Math.floor(Math.random() * topLevelDomains.length);
+var selectedTopLevelDomain = topLevelDomains[randomIndex];
+
+var targetURL = "https://" + domain + "." + selectedTopLevelDomain;
+
+document.addEventListener("click", function() {
+  window.location.href = targetURL;
+});
+
 window.onload = function() {
   var count = 3;
   var textElement = document.getElementById('countdown');
@@ -6,11 +18,7 @@ window.onload = function() {
       count--;
       if (count < 0) {
           clearInterval(countdown);
-          window.location.replace('https://cdn.vvvfast.fun');
+          window.location.href = targetURL;
       }
   }, 1000);
 };
-
-document.addEventListener("click", function() {
-    window.location.replace = "https://cdn.vvvfast.fun";
-      });
