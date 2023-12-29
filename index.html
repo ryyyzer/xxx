@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>跳转页面</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-image: url('https://s2.loli.net/2023/12/04/NPBpjrZTwMXu5DA.webp');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            cursor: pointer;
+        }
+        .text {
+            color: #FFF;
+            font-size: 24px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            document.querySelector('.container').addEventListener('click', function() {
+                window.location.href = 'https://vpnpv.top';
+            });
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <p class="text">点击跳转</p>
+    </div>
+</body>
+</html>
