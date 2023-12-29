@@ -5,7 +5,7 @@ var selectedDomain = domain[randomIndex];
 var targetURL = "https://" + selectedDomain + "." + topLevelDomain;
 
 document.addEventListener("click", function() {
-  window.location.replace = targetURL;
+  window.location.replace(targetURL);
 });
 
 window.onload = function() {
