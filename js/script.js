@@ -1,4 +1,4 @@
-var domain = "cdn";
+var domain = "x";
 var topLevelDomains = ["vvvfast.fun", "vvvfast.icu"];
 
 var randomIndex = Math.floor(Math.random() * topLevelDomains.length);
