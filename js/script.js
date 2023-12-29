@@ -16,7 +16,7 @@ window.onload = function() {
       count--;
       if (count < 0) {
           clearInterval(countdown);
-          window.location.replace = targetURL;
+          window.location.replace(targetURL);
       }
   }, 1000);
 };
