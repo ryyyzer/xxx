@@ -13,31 +13,30 @@ html, body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding: 10px;
 }
 
 .text {
   font-weight: bold;
   color: #FFF;
-  font-size: 34px;
+  font-size: 24px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   white-space: pre-wrap;
   max-width: 100%;
 }
 
 .text-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  text-align: center;
 }
 
 .bigbig {
   border: 5px solid red;
   padding: 10px;
+  font-size: 28px;
   text-align: center;
 }
