@@ -5,7 +5,7 @@ html, body {
 }
 
 .container {
-  background-image: url('https://s2.loli.net/2023/12/04/NPBpjrZTwMXu5DA.webp');
+  background-image: url('https://s2.loli.net/2023/12/30/DJhagHrTtSVw273.webp');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -39,4 +39,14 @@ html, body {
   padding: 10px;
   font-size: 32px;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .text {
+    font-size: 18px;
+  }
+
+  .bigbig {
+    font-size: 24px;
+  }
 }
