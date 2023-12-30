@@ -37,16 +37,16 @@ html, body {
 .bigbig {
   border: 5px solid red;
   padding: 10px;
-  font-size: 32px;
+  font-size: 58px;
   text-align: center;
 }
 
 @media only screen and (max-width: 480px) {
   .text {
-    font-size: 88px;
+    font-size: 90px;
   }
 
   .bigbig {
-    font-size: 86px;
+    font-size: 92px;
   }
 }
