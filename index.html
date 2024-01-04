@@ -5,6 +5,31 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="js/script.js"></script>
 </head>
+
+<body>
+<div class="container">
+    <div class="text-container">
+      <span class="text">官网域名被封，全力恢复中！！！</span>
+    </div>
+    <hr/>
+<div id="countdown"></div>
+
+  <script src="countdown.js"></script>
+  <script>
+    // 设置倒计时目标时间（距离当前时间180分钟后）
+    var targetDate = new Date();
+    targetDate.setMinutes(targetDate.getMinutes() + 180);
+
+    // 创建倒计时对象
+    var countdown = new Countdown(targetDate, 'countdown');
+
+    // 开始倒计时
+    countdown.start();
+  </script>
+</div>
+</body>
+
+<!--
 <body>
   <div class="container">
     <div class="text-container">
@@ -20,4 +45,5 @@
     </div>
   </div>
 </body>
+-->
 </html>
