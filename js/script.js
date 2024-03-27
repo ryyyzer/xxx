@@ -1,4 +1,4 @@
-var domain = "2awcvaerjwkd";
+var domain = "qUm0thskVKxU";
 var topLevelDomain = "vvvfast.icu";
 var targetURL = "https://" + domain + "." + topLevelDomain;
 
