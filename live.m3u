@@ -38,6 +38,6 @@ http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB6.png" group-title="卫视",TVB星河
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
 #EXTINF:-1 tvg-id="TVBS欢乐台" tvg-name="TVBS欢乐台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVBS2.png" group-title="卫视",TVBS欢乐台
-http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MBCB7220883472208834&ct=19234&tsum=82bece8e29754b899ffb60e5246dfc74
+http://37.27.111.214:8080/live/24/hls.m3u8
 #EXTINF:-1 tvg-id="王者荣耀KPL" tvg-name="王者荣耀KPL" tvg-logo="" group-title="电竞",王者荣耀KPL
 http://tc-tct.douyucdn2.cn/dyliveflv1a/1863767rkpl2_2000.flv?wsAuth=24c1aa8b3d11ec115f1e0a4be62ec606&token=cpn-androidmpro-0-1863767-7b520f6fe0a2b18d31a40f690b9cdf28c775eccafe04cc61&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
