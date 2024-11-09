@@ -15,8 +15,6 @@ http://[2409:8087:74d9:21::4]/270000001128/index.m3u8?cmcc_cid=9900000008
 http://[2409:8087:74d9:21::4]/270000001128/index.m3u8?cmcc_cid=9900000505
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视",CCTV-13
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视",CCTV-14
-http://[2409:8087:74d9:21::4]/270000001128/index.m3u8?cmcc_cid=9900000511
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="卫视",北京卫视
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png" group-title="卫视",东方卫视
@@ -41,5 +39,5 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
 http://37.27.111.214:8080/live/24/hls.m3u8
 #EXTINF:-1 tvg-id="王者荣耀KPL" tvg-name="王者荣耀KPL" tvg-logo="" group-title="电竞",王者荣耀KPL
 http://tc-tct.douyucdn2.cn/dyliveflv1a/1863767rkpl2_2000.flv?wsAuth=24c1aa8b3d11ec115f1e0a4be62ec606&token=cpn-androidmpro-0-1863767-7b520f6fe0a2b18d31a40f690b9cdf28c775eccafe04cc61&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 tvg-id="王者荣耀K甲" tvg-name="王者荣耀K甲" tvg-logo="" group-title="电竞",王者荣耀K甲
+#EXTINF:-1 tvg-id="王者荣耀KGL" tvg-name="王者荣耀KGL" tvg-logo="" group-title="电竞",王者荣耀KGL
 http://tc-tct.douyucdn2.cn/dyliveflv1/1984839rdqYitoI8_2000.flv?wsAuth=c17ef8db1985ce57fbb3aa418d93ca30&token=cpn-androidmpro-0-1984839-67aff303abf98630d4e416cdfc20cce5c8eac3790d2235e1&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
