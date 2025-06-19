@@ -22,7 +22,7 @@ http://27.24.96.92:6664/mgtv/644368714.m3u8
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://gh-proxy.com/https://github.com/fanmingming/live/blob/main/tv/CHC家庭影院.png" group-title="央视",CHC家庭影院
 http://27.24.96.92:6664/mgtv/644368373.m3u8
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://gh-proxy.com/https://github.com/fanmingming/live/blob/main/tv/东方卫视.png" group-title="卫视",东方卫视
-http://27.24.96.92:6664/mgtv/651632648.m3u8
+http://27.24.96.92:6664/nptv/dongfang.m3u8
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://gh-proxy.com/https://github.com/fanmingming/live/blob/main/tv/辽宁卫视.png" group-title="卫视",辽宁卫视
 http://27.24.96.92:6664/nptv/liaoning.m3u8
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://gh-proxy.com/https://github.com/fanmingming/live/blob/main/tv/山东卫视.png" group-title="卫视",山东卫视
@@ -32,6 +32,6 @@ http://27.24.96.92:6664/nptv/hunan.m3u8
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://gh-proxy.com/https://github.com/fanmingming/live/blob/main/tv/安徽卫视.png" group-title="卫视",安徽卫视
 http://27.24.96.92:6664/nptv/anhui.m3u8
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://gh-proxy.com/https://github.com/fanmingming/live/blob/main/tv/江苏卫视.png" group-title="卫视",江苏卫视
-http://27.24.96.92:6664/mgtv/623899368.m3u8
+http://27.24.96.92:6664/nptv/jiangsu.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://gh-proxy.com/https://github.com/fanmingming/live/blob/main/tv/浙江卫视.png" group-title="卫视",浙江卫视
 http://27.24.96.92:6664/nptv/zhejiang.m3u8
